@@ -22,6 +22,7 @@ services:
 
 volumes:
   jenkins_data:
+    name: jenkins_data
 ```
 
 2. Ejecuta el siguiente comando en tu terminal para iniciar los contenedores definidos en el archivo `docker-compose.yml`:
