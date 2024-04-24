@@ -54,7 +54,7 @@ docker exec id_container cat /var/jenkins_home/secrets/initialAdminPassword
 En caso de querer correr el contenedor sin hacer uso del archivo `docker-compose.yml` se puede usar el comando:
 
 ```
-docker run --name jenkins -d -p 8000:8000 -p 3000:3000 -v jenkins_data:/var/jenkins_home jenkins/jenkins:lts
+docker run --name jenkins -d -p 8080:8080 -p 3000:3000 -v jenkins_data:/var/jenkins_home jenkins/jenkins:lts
 ```
 ### Ingresamos a la página de Jenkins e iniciamos su configuración
  
